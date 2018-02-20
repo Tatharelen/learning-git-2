@@ -1,0 +1,7 @@
+Usage: autoprefixer [OPTION...] FILES
+
+autoprefixer -o style.prefixed.css style.css
+
+Usage: cli [options] <files/urls ...>
+
+cli -a *.html
