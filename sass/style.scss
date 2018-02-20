@@ -5,6 +5,11 @@ body {
 	font-family: 'Quicksand', sans-serif;
 }
 
+.test {
+	display: flex;
+	flex-wrap: wrap;
+}
+
 .container {
 		max-width: 500px;
 		box-shadow: 2px 2px 5px #000;
