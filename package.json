@@ -28,10 +28,10 @@
     "build:autoprefixer": "autoprefixer-cli css/style.css",
     "build-dev:sass": "node-sass --output-style expanded --source-map true -o css sass",
     "watch": "npm-run-all build -p watch:*",
-    "watch:sassprefixer": "npm-run-all watch:sass -p watch:autoprefixer",
+    "watch:sassprefixer": "npm-run-all watch:sass -p watch:autoprefixer", // task-6
     "watch:sass": "onchange scss/style.scss node-sass --output-style compact -o css sass",
     "watch:autoprefixer": "onchange -d 100 css/style.css -- autoprefixer-cli -o css/style.css",
-    "watch:browser-sync": "node_modules/.bin/browser-sync start --server --files css/*.css *.html"
+    "watch:browser-sync": "node_modules/.bin/browser-sync start --server --files css/*.css *.html" 
   },
   "repository": {
     "type": "git",
